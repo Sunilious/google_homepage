@@ -1,0 +1,1 @@
+this is me creating a readme file for the first google project for the odin project
