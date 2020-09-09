@@ -95,7 +95,7 @@ ul button {
 
 
     
- /**  */
+ /**footer css  */
 footer {
     /**
     display: block;
@@ -132,12 +132,13 @@ right:0px;
 visibility:visible;
 width:1920px;
 }
+/** the search bar settings*/
 .searchBar {
     
     width: 100%;
     text-align:center;
 }
-
+/** the buttons under the search bar settings*/
 .mainButtons {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     background-color: #f2f2f2;
