@@ -1,0 +1,136 @@
+ /**  */
+body {
+    background-color: white;
+}
+ /**  */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+ /**  */
+li {
+    float: left;
+    text-align: center;
+}
+ /**  */
+li a {
+   
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+ /**  */
+li a:link {
+    text-decoration-line: none;
+  }
+  /**  */
+li a:hover {
+    text-decoration-line: underline;
+  }
+  /**used to put the two a links to the top right beside the button on the navbar */
+.navclass {
+   float: right;
+   
+}
+/**This is the google sign in button on the top right of the navbar  */
+ul button {
+  float: right;
+   border: 1px solid #4285f4;
+   font-weight: bold;
+   outline: none;
+   background: #4285f4;
+   background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+   background: linear-gradient(top,#4387fd,#4683ea);
+  
+    line-height: 28px;
+    padding: 0 12px;
+
+
+    background-clip:border-box;
+    background-color:rgba(0, 0, 0, 0);
+    background-image:-webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    background-origin:padding-box;
+    background-position-x:0%;
+    background-position-y:0%;
+
+    background-size:auto;
+    border-bottom-color:rgb(66, 133, 244);
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    border-image-outset:0;
+    border-image-repeat:stretch;
+    border-image-slice:100%;
+    border-image-source:none;
+    border-image-width:1;
+    border-left-color:rgb(66, 133, 244);
+    border-left-style:solid;
+    border-left-width:1px;
+    border-right-color:rgb(66, 133, 244);
+    border-right-style:solid;
+    border-right-width:1px;
+    border-top-color:rgb(66, 133, 244);
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    border-top-style:solid;
+    border-top-width:1px;
+    color:rgb(255, 255, 255);
+ }
+.space {
+    padding: 5%;
+}
+ /** the google image properties */
+ img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+
+
+    
+ /**  */
+footer {
+    /**
+    display: block;
+    bottom: 0%;
+    position: absolute;
+    background: #f2f2f2;
+    line-height: 40px;
+    min-width: 1900px;
+    border-top: 1px solid #e4e4e4;
+    */
+    background-attachment:scroll;
+background-clip:border-box;
+background-color:rgb(242, 242, 242);
+background-image:none;
+background-origin:padding-box;
+background-position-x:0%;
+background-position-y:0%;
+
+background-size:auto;
+border-top-color:rgb(228, 228, 228);
+border-top-style:solid;
+border-top-width:1px;
+bottom:0px;
+color:rgb(34, 34, 34);
+display:block;
+font-family:arial, sans-serif;
+font-size:13.3333px;
+height:81px;
+left:0px;
+line-height:40px;
+min-width:400px;
+position:absolute;
+right:0px;
+visibility:visible;
+width:1920px;
+    
+
+}
